@@ -46,6 +46,21 @@ app.use(require("./src/middlewares/logger"));
 app.use(require("./src/middlewares/queryHandler"));
 
 /* ------------------------------------------------------- */
+//* EMAİL * NODEMAILER
+
+const nodemailer = require("nodemailer");
+
+
+// Create a new Test Account (fake email):
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------- */
 // Routes:
 
 //! routes/index.js:
